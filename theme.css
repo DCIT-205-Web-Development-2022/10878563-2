@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #99ffff;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* =================Start of Navigation ====================*/
+
+nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: #bce5dc;
+}
+.menu {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.menu a {
+  text-decoration: none;
+}
+/* =================End of Navigation ====================*/
+
+/* =================Start of About Me ====================*/
+
+section {
+  width: 95%;
+  margin: 1rem auto 0;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-name {
+  margin: 0.5rem 0;
+}
+.profile-pic-box {
+  width: 20%;
+}
+.about-me-details {
+  width: 60%;
+  text-align: center;
+  line-height: 1.7rem;
+}
+/* =================End of About Me ====================*/
+
+/* =================Start of Education ====================*/
+table {
+  width: 60%;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 2rem;
+}
+td,
+th {
+  border: 1px solid #000;
+}
+
+/* Start of form */
+form {
+  margin-top: 1.5rem;
+}
+.info input {
+  display: block;
+}
+fieldset {
+  padding: 1rem;
+}
+.id {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#submit {
+  padding: 0.5rem;
+  background-color: #2cf07d;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

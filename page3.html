@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/theme.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Th.Asare</div>
+            <ul class="menu">
+                <li><a href="/page1.html">Home</a></li>
+                <li><a href="/page2.html">Education</a></li>
+                <li><a href="/page3.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <form>
+            <fieldset class="info">
+                <legend> Info </legend>
+                <label for="fname">First name</label>
+                <input type="text" name="fname">
+
+                <label for="lname">Surname</label>
+                <input type="text" name="lname">
+
+                <label for="age">Age</label>
+                <input type="text" name="age">
+
+                <label for="tel">Tel </label>
+                <input type="text" name="tel">
+
+            </fieldset>
+
+            <fieldset class="Gender">
+                <legend>Choose a gender</legend>
+
+                <input type="radio" name="male">
+                <label for="male">male</label><br>
+
+                <input type="radio" name="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" name="other">
+                <label for="other">Gender Neutral</label><br>
+            </fieldset>
+            <fieldset class="id">
+                    <legend>Id </legend>
+                    <label for="id">Choose id Type</label>
+                    <select id="id" name="id type">
+                        <option value="Ecowas card"><i>Ecowas card</i></option>
+                        <option value="Voter's ID"><i>Voter's ID</i></option>
+                        <option value="Passport"><i>Passport</i></option>
+                        <option value="NHIS"><i>NHIS</i></option>
+                    </select>
+                    <label for="i-num">Input Id number</label>
+                    <input type="text" name="i-num" >
+            </fieldset>
+
+            <fieldset class="add-info">
+                    <legend>Additional info</legend>
+                    <textarea name="add"></textarea><br>
+                    
+                    <input type="submit" id="submit">
+            </fieldset>
+
+            
+        </form>
+    </div>
+</body>
+</html>
